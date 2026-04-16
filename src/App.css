@@ -1,0 +1,63 @@
+/* features.module.css */
+.card { background: #1e1e2e; border-radius: 12px; }
+
+header.hero{
+    height: 18vh;
+    
+
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem 0;
+}
+
+.hero-title {
+  font-family: var(--mono);
+  font-size: clamp(3rem, 10vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+div.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+div.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+div.card {
+  border-color: #cbd5e1;
+}
+
+div.card {
+  font-size: 14px;
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+}
+
+div.card {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.6;
+  margin: 0;
+}
